@@ -5,7 +5,23 @@ exports[`renders App page and checks basic snapshot 1`] = `
   <div
     class="App"
   >
-    test
+    <div>
+      <div
+        class="card"
+      >
+        bulbazaur
+      </div>
+      <div
+        class="card"
+      >
+        charizard
+      </div>
+      <div
+        class="card"
+      >
+        pikachu
+      </div>
+    </div>
   </div>
 </DocumentFragment>
 `;
