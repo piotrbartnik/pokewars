@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - 10.19.0
+cache: npm
+
+install:
+  - npm install
+
+script:
+  - npm run test
+  - npm run build
